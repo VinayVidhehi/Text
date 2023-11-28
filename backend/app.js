@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors"); // Import the cors module
 
 try {
-  mongoose.connect("mongodb://localhost:27017/db");
+  mongoose.connect("mongodb+srv://Vinay:4556%40Devaraj@cluster0.tpgkfpg.mongodb.net/db");
   console.log("connected to mongodb");
 } catch (err) {
   console.log(err.message);
